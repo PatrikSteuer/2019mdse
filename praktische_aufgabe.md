@@ -18,4 +18,6 @@ Es sind ingesamt 4 Punkte zu erreichen, die sich auf folgende Teilaufgaben verte
 * Das mounten eines Ordners mit Markdown-Dateien z.B. mit dem Befehl „docker run -v <lokaler/pfad/mit/markdown-dateien>:/markdown“ ist möglich. Der Webserver interpretiert die enthaltenen Markdown-Dateien korrekt.
 
 ### Abgabe 
-Alle für den build des Image benötigten Dateien als ein .zip File per E-Mail.
+Alle für den build des Image benötigten Dateien als ein .zip File per E-Mail, mit Ihren Namen + Matrikelnr an:
+* d188112@student.dhbw-mannheim.de
+* d188110@student.dhbw-mannheim.de
