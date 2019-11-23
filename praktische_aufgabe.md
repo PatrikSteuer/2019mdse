@@ -8,7 +8,11 @@ Ihre Aufgabe ist es ein Docker-Image zu erzeugen, das einen Webserver enthält, 
 * Das Image soll durch folgenden Befehl zu starten sein: `docker run -v <lokaler/pfad/mit/markdown-dateien>:/markdown -p 8080:8080 <ihr_image>`.
 * Danach soll mit dem Browser unter `http://localhost:8080` eine Übersicht der verfügbaren Markdown-Dateien angezeigt werden.
 
-**Anmerkung:** Die Verwendung von open-source Komponenten um diese Aufgabe zu bewerkstelligen ist ausdrücklich erwünscht. Beispielweise können Sie folgenden Markdown-Server innerhalb ihres Docker-Images verwenden: `https://github.com/ohbarye/markdown-server`.
+**Anmerkung:** Die Verwendung von open-source Komponenten um diese Aufgabe zu bewerkstelligen ist ausdrücklich erwünscht. Beispielweise können Sie folgenden Markdown-Server innerhalb ihres Docker-Images verwenden: `https://github.com/ohbarye/markdown-server`. 
+
+Falls Sie sich für den genannten Markdown Server entscheiden, bitte beachten Sie, dass Sie Anpassungen in der Datei `env.py` vornehmen müssen:
+* Der `ms_host` Parameter muss wie folgt angepasst werden um einen Netzwerkzugriff zu ermöglichen: `ms_host        = '0.0.0.0'`. 
+* weiterer Tipp: Beachten Sie auch den Parameter `markdown_root`. In der Anforderungsbeschreibung wurde vermerkt, dass innerhalb des Containers markdown Dateien im Pfad `/markdown` verwaltet werden sollen.
 
 ### Bewertung
 Es sind ingesamt 4 Punkte zu erreichen, die sich auf folgende Teilaufgaben verteilen:
