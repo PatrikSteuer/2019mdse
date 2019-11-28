@@ -1,8 +1,8 @@
 # Übung: Formate
 
 ### 1. Projektsetup
-1. Nutzen Sie `git clone` um das Github Repository [https://github.com/hellerchr/mdse](https://github.com/hellerchr/mdse) zu klonen.
-2. Öffnen Sie den Projektordner **format** (Unterordner in *mdse/ci/uebung*) in *IntellIJ*.
+1. Nutzen Sie `git clone` um das Github Repository [https://github.com/PatrikSteuer/2019mdse](https://github.com/PatrikSteuer/2019mdse) zu klonen.
+2. Öffnen Sie den Projektordner **format** (Unterordner in */ci/uebung*) in *IntellIJ*.
 3. Führen Sie mit Rechtsklick auf *FormatTest* die Unit Tests aus.
 
 ![](images/run_format_test.png)
